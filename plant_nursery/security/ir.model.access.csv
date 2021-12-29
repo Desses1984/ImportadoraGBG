@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_plant_nursury_plant_nursury,plant_nursury.plant_nursury,model_plant_nursury_plant_nursury,base.group_user,1,1,1,1
