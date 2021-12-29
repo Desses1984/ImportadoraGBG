@@ -1,2 +1,3 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_plant_nursury_plant_nursury,plant_nursury.plant_nursury,model_plant_nursury_plant_nursury,base.group_user,1,1,1,1
+access_nursery_plant,access_nursery_plant,plant_nursery.model_nursery_plant,base.group_user,1,1,1,1
+access_nursery_customer,access_nursery_customer,plant_nursery.model_nursery_customer,base.group_user,1,1,1,1
