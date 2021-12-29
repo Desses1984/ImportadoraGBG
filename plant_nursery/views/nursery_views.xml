@@ -1,0 +1,36 @@
+<odoo>
+  
+    <
+
+    <record model="ir.actions.act_window" id="action_nursery_plant">
+      <field name="name">Plants</field>
+      <field name="res_model">nursery.plant</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+
+
+
+    <menuitem name="Plant Nursery" 
+id="nursery_root_menu"
+              
+web_icon="plant_nursery,static/description/icon.png"
+/>
+
+    <!-- menu categories -->
+
+    <menuitem name="Plants" 
+              id="nursery_plant_menu" 
+              parent="nursery_root_menu" 
+              action="action_nursery_plant" 
+              sequence="1"/>
+-->
+    <!-- actions -->
+<!--
+    <menuitem name="List" id="plant_nursury.menu_1_list" parent="plant_nursury.menu_1"
+              action="plant_nursury.action_window"/>
+    <menuitem name="Server to list" id="plant_nursury" parent="plant_nursury.menu_2"
+              action="plant_nursury.action_server"/>
+-->
+
+</odoo>

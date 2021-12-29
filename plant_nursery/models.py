@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from odoo import models, fields 
+from odoo import fields, models 
 
 
 class Plants(models.Model):
@@ -15,7 +15,7 @@ class Plants(models.Model):
         
 class Customer(models.Model): 
      _name = 'nursery.customer'
-      name = fields.Char("Customer Name")
+      name = fields.Char("Customer Name", required=True)
       email = fields.Char(help="To Recieve the newsletter")
 #     value2 = fields.Float(compute="_value_pc", store=True)
 #     description = fields.Text()
