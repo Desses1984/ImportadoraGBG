@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 
-from odoo import models, fields, api
+from odoo import models, fields 
 
 
 class Plants(models.Model):
-     _name = 'nursury.plant'
+     _name = 'nursery.plant'
 #     _description = 'plant_nursury.plant_nursury'
 
       name = fields.Char("Plant Name")
@@ -14,7 +14,7 @@ class Plants(models.Model):
         
         
 class Customer(models.Model): 
-     _name = 'nursury.customer'
+     _name = 'nursery.customer'
       name = fields.Char("Customer Name")
       email = fields.Char(help="To Recieve the newsletter")
 #     value2 = fields.Float(compute="_value_pc", store=True)
