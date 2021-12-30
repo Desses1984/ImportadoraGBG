@@ -32,3 +32,4 @@
         'demo/demo.xml',
     ],
 }
+
