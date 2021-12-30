@@ -7,7 +7,7 @@ class Plants(models.Model):
      _name = 'nursery.plant'
 #     _description = 'plant_nursury.plant_nursury'
 
-      name = fields.Char("Plant Name")
+      name = fields.Char("PlantName")
       price = fields.float()
         
         
