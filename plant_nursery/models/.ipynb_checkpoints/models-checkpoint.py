@@ -7,7 +7,7 @@ class Plants(models.Model):
      _name = 'nursery.plant'
 #     _description = 'plant_nursury.plant_nursury'
 
-      name = fields.Char("PlantName")
+      name = fields.Char(string="Plant Name")
       price = fields.float()
         
         
@@ -15,7 +15,7 @@ class Plants(models.Model):
         
 class Customer(models.Model): 
      _name = 'nursery.customer'
-      name = fields.Char("Customer Name", required=True)
+      name = fields.Char(string="Customer Name", required=True)
       email = fields.Char(help="To Recieve the newsletter")
 #     value2 = fields.Float(compute="_value_pc", store=True)
 #     description = fields.Text()
